@@ -1,13 +1,13 @@
 ﻿//Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным
 
-Console.WriteLine ("Vvedite chislo a");
+Console.WriteLine("Vvedite chislo a");
 int a = int.Parse(Console.ReadLine());
 
-if (a % == 0)
+if (a % 2 == 0)
 {
-Console.WriteLine (а + " - chetnoe chislo");
+    Console.WriteLine(a + " - chetnoe chislo");
 }
 else
 {
-Console.WriteLine (а + " - nechetnoe chislo");
+    Console.WriteLine(a + " - nechetnoe chislo");
 }
